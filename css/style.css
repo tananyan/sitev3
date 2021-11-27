@@ -279,7 +279,7 @@ img.optimization_image {
 
 /* Четвертый блок exellend */
 .finish {
-  background-image: url(./img/background/second_bg.png);
+  background-image: url(../img/background/second_bg.png);
   min-height: 447px;
   padding: 86px 0 69px 0px;
 }
