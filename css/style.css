@@ -1,0 +1,454 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.promo {
+  height: 830px;
+  background: url(../img/background/main_bg.png) center center/cover no-repeat;
+  padding: 38px 0 61px 0;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo .logo_text {
+  /* WordPress интенсив */
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+/* Заголовки */
+h1 {
+  margin-top: 53px;
+}
+
+.title {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #f9bf3b;
+}
+
+h2.title {
+  margin-top: 20.5px;
+}
+
+.simple .big_title {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  margin-top: 20.5px;
+}
+
+.promo .promo_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 28px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin-top: 22.5px;
+}
+
+.promo .promo_text span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 28px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #f9bf3b;
+}
+
+/* Кнопка */
+button.click_btn {
+  background: linear-gradient(0deg, #2798b9 0%, #3ab6da 100%);
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
+
+  width: 310px;
+  height: 70px;
+
+  display: block;
+  margin: 72px auto 0 auto;
+
+  /* Шрифт */
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  text-shadow: -1px -1px 0px rgba(255, 203, 203, 0.22);
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+
+  cursor: pointer;
+}
+
+.more {
+  margin-top: 70.5px;
+}
+
+.more .more_txt {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.more .more_img {
+  display: block;
+  margin: 5px auto;
+  /* background: #dadada; */
+}
+
+/* Второй блок wait  */
+
+.wait {
+  min-height: 607px;
+  background: #eeeeee;
+  padding: 88px 0 75px 0;
+}
+
+h2.wait_h2 {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #252525;
+}
+
+.wait_line {
+  width: 220px;
+  height: 7px;
+  background: #f9bf3b;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+h3.wait_h3 {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 20px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #4a4a4a;
+
+  margin-top: 18px;
+}
+
+.wait .waiting_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 45.5px;
+  margin-bottom: 72px;
+}
+
+.wait .waiting_item {
+  width: 350px;
+  text-align: center;
+}
+
+.wait .waiting_item .item_img {
+  /* Фиксированная ширина фотки */
+  width: 100%;
+}
+
+.wait .waiting_item .descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  color: #4a4a4a;
+  width: 370px;
+  margin-top: 26px;
+}
+
+/* Третий блок optimization */
+.optimization {
+  min-height: 550px;
+  padding: 111px 0px 75px 0px;
+}
+
+h2.optimization_h2 {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  color: #299cbd;
+
+  justify-content: center;
+  margin-left: 391px;
+}
+
+div.optimization_descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #4a4a4a;
+
+  margin-left: 391px;
+  margin-top: 25px;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+img.optimization_image {
+  position: absolute;
+  width: 868px;
+  height: 502px;
+  left: -240px;
+  top: -70px;
+  z-index: -1;
+}
+
+/* Четвертый блок exellend */
+.finish {
+  background-image: url(/img/background/second_bg.png);
+  min-height: 447px;
+  padding: 86px 0 69px 0px;
+}
+
+h2.h2_finish {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #efefef;
+}
+
+.finish .finish_wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 39px;
+}
+
+.finish_wrapper .finish_item {
+  width: 234px;
+}
+
+.finish_item .finish_item_img {
+  object-fit: scale-down;
+}
+
+.finish_item .finish_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #efefef;
+
+  margin-top: 24.5px;
+  text-align: center;
+}
+
+.round {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  border-radius: 100%;
+  background-color: #b4b5ff;
+  width: 118px;
+  height: 118px;
+
+  margin: 0 auto;
+}
+
+/* Пятый container  */
+.surprise {
+  background-color: #ebe9e9;
+  min-height: 630px;
+  padding: 88px 0 88px 0px;
+}
+
+.surprise .info_surprise .surprise_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.surprise_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 43px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #252525;
+
+  margin-top: 45px;
+  width: 1161px;
+}
+
+.info_surprise button.click_btn {
+  margin-top: 52px;
+}
+
+.stream_event {
+  background-color: rgb(255, 255, 255);
+  min-height: 513px;
+  padding: 90px 0px 52.5px 0px;
+}
+
+.stream_event .event_item img.event_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.event_item .event_text {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-top: 36px;
+}
+
+.event_item h2.event_h2 {
+  /* font-family: Roboto; */
+  font-family: 'Russo One', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+
+  margin-top: 30px;
+}
+
+.event_item .event_reg {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+
+  text-align: center;
+
+  color: #4a4a4a;
+
+  margin-top: 24.5px;
+}
+
+footer {
+  background-color: rgb(27, 27, 27);
+  min-height: 170px;
+  padding: 57px 0px 70px 0px;
+}
+
+footer .links{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+
+  text-align: center;
+
+  color: #888888;
+}
+
+footer .links .footer_links a{
+  text-decoration-line: underline;
+  color: #888888;
+}
+
+.wolverine{
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+}
